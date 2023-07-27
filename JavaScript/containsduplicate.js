@@ -25,7 +25,6 @@ var containsDuplicate = function(nums) {
 // Hash Set Approach
 // Time Complexity: O(n)
 // Space Complexity: O(n)
-// Slightly better in practice because a hash set uses less memory.
 
 /**
  * @param {number[]} nums
