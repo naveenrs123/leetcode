@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/contains-duplicate/
 
-
-
 // Hash Map Approach
 // Time Complexity: O(n)
 // Space Complexity: O(n)
