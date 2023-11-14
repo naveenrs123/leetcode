@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/merge-two-sorted-lists/
+
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
@@ -5,6 +7,10 @@
  *     this.next = (next===undefined ? null : next)
  * }
  */
+
+// Time Complexity: O(n) (we go through both lists once)
+// Space Complexity: O(1) (we use negligible additional space)
+
 /**
  * @param {ListNode} list1
  * @param {ListNode} list2
