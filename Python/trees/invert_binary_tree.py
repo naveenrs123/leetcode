@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/invert-binary-tree/
+
 from typing import Optional
 
 # Definition for a binary tree node.
@@ -17,4 +19,3 @@ class Solution:
         self.invertTree(root.right)
         self.invertTree(root.left)
         return root
-        

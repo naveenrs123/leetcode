@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/valid-anagram/
+
 def isAnagram(s: str, t: str) -> bool:
     return sorted(s) == sorted(t)
 
@@ -6,7 +8,7 @@ def isAnagram(s: str, t: str) -> bool:
 
     if (len(s) != len(t)):
         return False
-    
+
     countS, countT = {}, {}
 
     for i in range(len(s)):
@@ -16,6 +18,6 @@ def isAnagram(s: str, t: str) -> bool:
     for key in countS:
         if (countS[key] != countT.get(key, 0)):
             return False
-        
+
     return True
-        
+
